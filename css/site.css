@@ -1,6 +1,6 @@
 :root {
-    --primary-color: #1d5888;
-    --secondary-color: #ff993b;
+    --primary-color: #000000;
+    --secondary-color: #f5c330;
     --dark-color: #292929;
     --white-color: #dff3e4;
 }
@@ -68,6 +68,22 @@ pre[class*="language-"] {
     word-wrap: break-word;
 }
 
+.lead{
+    color: var(--secondary-color);
+}
+
+.Fizz{
+color: darkgreen;
+}
+
+.Buzz{
+color: darkblue;
+}
+
+.FizzBuzz{
+color: red;
+font-weight: bold;
+}
 main>.container {
     padding: 60px 15px 0;
     margin-bottom: 5rem;
